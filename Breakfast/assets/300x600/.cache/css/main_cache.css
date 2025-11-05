@@ -1,0 +1,19 @@
+
+
+#cta_2x {
+	left:91px;
+	top:453px;
+	width:120px;
+	height:38px;
+	background-image:url(../img/cta_2x.png);
+	background-size:120px 38px;
+}
+
+#logo_2x {
+	left:75px;
+	top:253px;
+	width:142px;
+	height:54px;
+	background-image:url(../img/logo_2x.png);
+	background-size:142px 54px;
+}
