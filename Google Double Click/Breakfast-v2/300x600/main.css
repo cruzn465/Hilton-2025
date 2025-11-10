@@ -1,0 +1,146 @@
+body { margin:0px 0px; padding:0px; } 
+
+* { 
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+  	-webkit-perspective: 1000px; 
+	-ms-overflow-style: hidden;
+}
+
+#container{
+	background-color:white;
+	position:absolute;
+	overflow:hidden;
+	border: 1px solid #515151;
+} 
+
+.sprite {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.masterSize {
+	width: 300px;
+	height: 600px;
+}
+
+#banner {
+	cursor: pointer;
+	overflow: hidden;
+	/* border: 1px solid #515151; */
+	box-sizing: border-box;
+}
+
+#star {
+    top: -227px;
+    left: 165px;
+    scale: .5;
+}
+
+.w100 {
+	width: 100%;
+	height: 100%;
+}
+
+.fpo {
+	opacity: .5;
+}
+
+#bg_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:600px;
+	background-image:url(bg_2x.jpg);
+	background-size:300px 600px;
+}
+
+#c1_2x {
+	left:19px;
+	top:36px;
+	width:179px;
+	height:71px;
+	background-image:url(c1_2x.png);
+	background-size:179px 71px;
+}
+
+#c2_2x {
+	left:17px;
+	top:120px;
+	width:231px;
+	height:80px;
+	background-image:url(c2_2x.png);
+	background-size:231px 80px;
+}
+
+#c3_2x {
+	left:15px;
+	top:41px;
+	width:161px;
+	height:105px;
+	background-image:url(c3_2x.png);
+	background-size:161px 105px;
+}
+
+#cta_2x {
+	left:91px;
+	top:460px;
+	width:120px;
+	height:38px;
+	background-image:url(cta_2x.png);
+	background-size:120px 38px;
+}
+
+#logo_2x {
+	left:75px;
+	top:253px;
+	width:142px;
+	height:54px;
+	background-image:url(logo_2x.png);
+	background-size:142px 54px;
+}
+.mainframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 600px;
+	overflow: hidden;
+	background: #783fc4;
+	/* diamond reveal: name changed from revealCircle to revealDiamond */
+	animation: revealDiamond .6s ease-in-out 2.6s forwards;
+}
+
+#mainframe {
+	/* Start collapsed at the upper-right corner (all points at the corner)
+	   and expand to a large diamond whose center is anchored at that corner.
+	   Final coordinates exceed the 0-100% box so the diamond grows outward
+	   from the corner without translating toward the center. */
+	clip-path: polygon(100% 7%, 100% 15%, 100% 17%, 89% 12%);
+	-webkit-clip-path: polygon(100% 7%, 100% 15%, 100% 17%, 89% 12%);
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@keyframes revealDiamond{
+	/* animate a diamond-shaped polygon that stays anchored in the upper-right.
+	   Final polygon points are placed outside the element's box so the diamond
+	   expands outward from the corner instead of moving toward center. */
+	from{
+		clip-path: polygon(100% 7%, 100% 15%, 100% 17%, 89% 12%);
+
+		/* 					   -100. +100 y.   x. +200.   -200 y */
+		
+		/* -webkit-clip-path: polygon(100% 0%, 100% 0%, 100% 0%, 100% 0%); */
+	}
+	to{
+		/* top, right, bottom, left — centered at the top-right corner */
+		clip-path: polygon(100% -105%, 200% 15%, 100% 225%, -120% 15%);
+		/* -webkit-clip-path: polygon(100% -100%, 200% 0%, 100% 200%, 0% 0%); */
+	}
+}
+
