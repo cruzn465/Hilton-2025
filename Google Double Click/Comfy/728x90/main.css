@@ -56,7 +56,7 @@ height: 100%;
 	top:17px;
 	width:269px;
 	height:27px;
-	background-image:url(../img/c1_2x.png);
+	background-image:url(c1_2x.png);
 	background-size:269px 27px;
 }
 
@@ -65,16 +65,15 @@ height: 100%;
 	top:50px;
 	width:248px;
 	height:27px;
-	background-image:url(../img/c2_2x.png);
+	background-image:url(c2_2x.png);
 	background-size:248px 27px;
 }
-
 #c3_2x {
 	left:31px;
 	top:19px;
 	width:223px;
 	height:58px;
-	background-image:url(../img/c3_2x.png);
+	background-image:url(c3_2x.png);
 	background-size:223px 58px;
 }
 
@@ -83,7 +82,7 @@ height: 100%;
 	top:27px;
 	width:119px;
 	height:37px;
-	background-image:url(../img/cta_2x.png);
+	background-image:url(cta_2x.png);
 	background-size:119px 37px;
 }
 
@@ -92,7 +91,7 @@ height: 100%;
 	top:20px;
 	width:128px;
 	height:49px;
-	background-image:url(../img/logo_2x.png);
+	background-image:url(logo_2x.png);
 	background-size:128px 49px;
 }
 
@@ -102,7 +101,7 @@ height: 100%;
 	top:523px;
 	width:208px;
 	height:40px;
-	background-image:url(../img/bottom_logo_2x.png);
+	background-image:url(bottom_logo_2x.png);
 	background-size:208px 40px;
 }
 
@@ -111,7 +110,7 @@ height: 100%;
 	top:21px;
 	width:56px;
 	height:55px;
-	background-image:url(../img/bigSpark_2x.png);
+	background-image:url(bigSpark_2x.png);
 	background-size:56px 55px;
 }
 
@@ -120,7 +119,7 @@ height: 100%;
 	top:16px;
 	width:113px;
 	height:58px;
-	background-image:url(../img/hiltonLogo_2x.png);
+	background-image:url(hiltonLogo_2x.png);
 	background-size:113px 58px;
 }
 
@@ -129,7 +128,7 @@ height: 100%;
 	top:21px;
 	width:117px;
 	height:48px;
-	background-image:url(../img/sparkCopy_2x.png);
+	background-image:url(sparkCopy_2x.png);
 	background-size:117px 48px;
 }
 
@@ -148,6 +147,6 @@ height: 100%;
 	top:20px;
 	width:17px;
 	height:17px;
-	background-image:url(../img/spark_2x.png);
+	background-image:url(spark_2x.png);
 	background-size:17px 17px;
 }
