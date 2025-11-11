@@ -1,0 +1,153 @@
+body { margin:0px 0px; padding:0px; } 
+
+* { 
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+  	-webkit-perspective: 1000px; 
+	-ms-overflow-style: hidden;
+}
+
+#container{
+background-color: #783fc4;
+	position:absolute;
+	overflow:hidden;
+	border: 1px solid #515151;
+} 
+
+.sprite {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+.masterSize {
+	width: 300px;
+	height: 600px;
+}
+
+#banner {
+	cursor: pointer;
+	overflow: hidden;
+	/* border: 1px solid #515151; */
+	box-sizing: border-box;
+}
+
+#star {
+    top: -16px;
+    left: 211px;
+    scale: .25;
+}
+
+.w100 {
+	width: 100%;
+	height: 100%;
+}
+
+.fpo {
+	opacity: .5;
+}
+
+#bg_2x {
+width: 100%;
+height: 100%;
+}
+
+#c1_2x {
+	left:33px;
+	top:17px;
+	width:269px;
+	height:27px;
+	background-image:url(../img/c1_2x.png);
+	background-size:269px 27px;
+}
+
+#c2_2x {
+	left:31px;
+	top:50px;
+	width:231px;
+	height:27px;
+	background-image:url(../img/c2_2x.png);
+	background-size:231px 27px;
+}
+
+#c3_2x {
+	left:31px;
+	top:19px;
+	width:223px;
+	height:58px;
+	background-image:url(../img/c3_2x.png);
+	background-size:223px 58px;
+}
+
+#cta_2x {
+	left:376px;
+	top:27px;
+	width:119px;
+	height:37px;
+	background-image:url(../img/cta_2x.png);
+	background-size:119px 37px;
+}
+
+#logo_2x {
+	left:566px;
+	top:20px;
+	width:128px;
+	height:49px;
+	background-image:url(../img/logo_2x.png);
+	background-size:128px 49px;
+}
+
+
+#bottom_logo_2x {
+	left:43px;
+	top:523px;
+	width:208px;
+	height:40px;
+	background-image:url(../img/bottom_logo_2x.png);
+	background-size:208px 40px;
+}
+
+#bigSpark_2x {
+	left:549px;
+	top:21px;
+	width:56px;
+	height:55px;
+	background-image:url(../img/bigSpark_2x.png);
+	background-size:56px 55px;
+}
+
+#hiltonLogo_2x {
+	left:569px;
+	top:16px;
+	width:113px;
+	height:58px;
+	background-image:url(../img/hiltonLogo_2x.png);
+	background-size:113px 58px;
+}
+
+#sparkCopy_2x {
+	left:577px;
+	top:21px;
+	width:117px;
+	height:48px;
+	background-image:url(../img/sparkCopy_2x.png);
+	background-size:117px 48px;
+}
+
+
+#spark_cover {
+	position: relative;
+	left:577px;
+	top:21px;
+	width:0px;
+	height:48px;
+	background-color: #783fc4;
+}
+
+#spark_2x {
+	left:566px;
+	top:20px;
+	width:17px;
+	height:17px;
+	background-image:url(../img/spark_2x.png);
+	background-size:17px 17px;
+}
