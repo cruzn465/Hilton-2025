@@ -78,17 +78,9 @@ var dimensions = (function(){
   console.log(stopWatch+" seconds");
   }
   
-// RM FXNS
-function myFunction() {
-  Enabler.exit('BackgroundExit');
-}
-
-function exitClickHandler() {
-  Enabler.exit('BackgroundExit');
-}
-function clickThrough(){
-    window.open(clicktag);
-}
+  function clickThrough(){
+  window.open(clicktag);
+  }
   
   //SET IDs IN DOM TO GLOBAL VARIABLES
   function IDsToVars(){
